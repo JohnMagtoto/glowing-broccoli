@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./timeface.component.css']
 })
 export class TimefaceComponent implements OnInit {
+  private _time ;
 
   constructor() { }
 
   ngOnInit() {
+    this._time = "1";
   }
 
 }
