@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TimefaceComponent } from './timeface/timeface.component';
+import { ControlpanelComponent } from './controlpanel/controlpanel.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimefaceComponent,
+    ControlpanelComponent
   ],
   imports: [
     BrowserModule,
